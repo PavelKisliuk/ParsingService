@@ -76,8 +76,8 @@ public class SimpleSAXParser extends DefaultHandler {
 					optionBuilder.withBoundNumber(Integer.parseInt(s));
 					break;
 				default:
-//					throw new EnumConstantNotPresentException(
-//							currentDeviceConstant.getDeclaringClass(), currentDeviceConstant.name());
+					throw new EnumConstantNotPresentException(
+							currentGem.getDeclaringClass(), currentGem.name());
 			}
 			currentGem = null;
 		}

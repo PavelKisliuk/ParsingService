@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gems xmlns="http://www.training.com/gems">
+    <gem curiosityLevel="VERY_RARE" serialNumber="Gem0001">
+        <name>Grandidierite</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>1000000</price>
+        <option>
+            <color>BLACK</color>
+            <opacity>0.7</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_RARE" serialNumber="Gem0002">
+        <name>Grandidierite</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>1005000</price>
+        <option>
+            <color>BLACK</color>
+            <opacity>0.6</opacity>
+            <boundNumber>5</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_RARE" serialNumber="Gem0003">
+        <name>Diamond</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>1000</price>
+        <option>
+            <color>GRAY</color>
+            <opacity>0.2</opacity>
+            <boundNumber>7</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_RARE" serialNumber="Gem0004">
+        <name>Diamond</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>1200</price>
+        <option>
+            <color>GRAY</color>
+            <opacity>0.125</opacity>
+            <boundNumber>8</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="RARE" serialNumber="Gem0005">
+        <name>Emerald</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>500</price>
+        <option>
+            <color>GREEN</color>
+            <opacity>0.63</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="RARE" serialNumber="Gem0006">
+        <name>Agate</name>
+        <semiprecious>false</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>520</price>
+        <option>
+            <color>RED</color>
+            <opacity>0.31</opacity>
+            <boundNumber>8</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="RARE" serialNumber="Gem0007">
+        <name>Agate</name>
+        <semiprecious>false</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>650</price>
+        <option>
+            <color>RED</color>
+            <opacity>0.25</opacity>
+            <boundNumber>9</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="MEDIUM" serialNumber="Gem0008">
+        <name>Amethyst</name>
+        <semiprecious>false</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>550</price>
+        <option>
+            <color>RED</color>
+            <opacity>0.7</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="MEDIUM" serialNumber="Gem0009">
+        <name>Malachite</name>
+        <semiprecious>true</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>550</price>
+        <option>
+            <color>GREEN</color>
+            <opacity>0.65</opacity>
+            <boundNumber>8</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="MEDIUM" serialNumber="Gem0010">
+        <name>Malachite</name>
+        <semiprecious>true</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>660</price>
+        <option>
+            <color>GREEN</color>
+            <opacity>0.15</opacity>
+            <boundNumber>8</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="FREQUENT" serialNumber="Gem0011">
+        <name>Pearl</name>
+        <semiprecious>true</semiprecious>
+        <origin>STREAM_GRAVEL</origin>
+        <price>400</price>
+        <option>
+            <color>WHITE</color>
+            <opacity>1</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="FREQUENT" serialNumber="Gem0012">
+        <name>Pearl</name>
+        <semiprecious>true</semiprecious>
+        <origin>STREAM_GRAVEL</origin>
+        <price>400</price>
+        <option>
+            <color>WHITE</color>
+            <opacity>1</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="FREQUENT" serialNumber="Gem0013">
+        <name>Opal</name>
+        <semiprecious>true</semiprecious>
+        <origin>STREAM_GRAVEL</origin>
+        <price>330</price>
+        <option>
+            <color>BLUE</color>
+            <opacity>0</opacity>
+            <boundNumber>9</boundNumber>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_FREQUENT" serialNumber="Gem0014">
+        <name>Amber</name>
+        <semiprecious>true</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>50</price>
+        <option>
+            <color>RED</color>
+            <opacity>0</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_FREQUENT" serialNumber="Gem0015">
+        <name>Amber</name>
+        <semiprecious>true</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>50</price>
+        <option>
+            <color>RED</color>
+            <opacity>0</opacity>
+        </option>
+    </gem>
+    <gem curiosityLevel="VERY_FREQUENT" serialNumber="Gem0016">
+        <name>Amber</name>
+        <semiprecious>true</semiprecious>
+        <origin>SURFACE_MINING</origin>
+        <price>50</price>
+        <option>
+            <color>RED</color>
+            <opacity>0</opacity>
+        </option>
+    </gem>
+</gems>

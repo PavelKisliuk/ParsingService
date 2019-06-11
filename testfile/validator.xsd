@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.training.com/gems"
+        xmlns:tns="http://www.training.com/gems"
+        elementFormDefault="qualified">
+
+    <element name="gems">
+        <complexType>
+            <sequence>
+                <element name="gem" type="tns:gem" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="gem">
+        <sequence>
+            <element name="name" type="tns:name"/>
+            <element name="semiprecious" type="boolean" default="false"/>
+            <element name="origin" type="tns:origin"/>
+            <element name="price" type="tns:price"/>
+            <element name="option" minOccurs="0">
+                <complexType>
+                    <sequence>
+                        <element name="color" type="tns:color"/>
+                        <element name="opacity" type="double" default="1.0"/>
+                        <element name="boundNumber" type="int" minOccurs="0"/>
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+        <attribute name="curiosityLevel" type="tns:curiosityLevel" use="required"/>
+        <attribute name="serialNumber" type="tns:serialNumber" use="required"/>
+    </complexType>
+
+    <simpleType name="name">
+        <restriction base="string">
+            <pattern value="[\w-]{1,20}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="origin">
+        <restriction base="string">
+            <enumeration value="MINE_WORKINGS"/>
+            <enumeration value="SURFACE_MINING"/>
+            <enumeration value="STREAM_GRAVEL"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="price">
+        <restriction base="string">
+            <pattern value="[\d.]{1,7}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="color">
+        <restriction base="string">
+            <enumeration value="BLACK"/>
+            <enumeration value="BLUE"/>
+            <enumeration value="CYAN"/>
+            <enumeration value="GRAY"/>
+            <enumeration value="GREEN"/>
+            <enumeration value="PINK"/>
+            <enumeration value="RED"/>
+            <enumeration value="WHITE"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="opacity">
+        <restriction base="double">
+            <minInclusive value="0.0"/>
+            <maxInclusive value="1.0"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="boundNumber">
+        <restriction base="double">
+            <minInclusive value="0"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="curiosityLevel">
+        <restriction base="string">
+            <enumeration value="VERY_RARE"/>
+            <enumeration value="RARE"/>
+            <enumeration value="MEDIUM"/>
+            <enumeration value="FREQUENT"/>
+            <enumeration value="VERY_FREQUENT"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="serialNumber">
+        <restriction base="ID"/>
+    </simpleType>
+
+
+</schema>

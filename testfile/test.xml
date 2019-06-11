@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gems xmlns="http://www.training.com/gems">
+    <gem curiosityLevel="VERY_RARE" serialNumber="Gem0001">
+        <name>Grandidierite</name>
+        <semiprecious>false</semiprecious>
+        <origin>MINE_WORKINGS</origin>
+        <price>1000000</price>
+        <option>
+            <color>BLACK</color>
+            <opacity>0.7</opacity>
+        </option>
+    </gem>
+</gems>
